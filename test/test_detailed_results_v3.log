@@ -1,0 +1,352 @@
+2025-11-10 23:18:43,277 [INFO] 🔐 Iniciando sesión...
+2025-11-10 23:18:45,582 [INFO] ✅ Login exitoso -> nolavarria@agitech.cl
+2025-11-10 23:18:45,583 [INFO] 
+🚀 INICIANDO SUITE DE PRUEBAS - 13 escenarios
+2025-11-10 23:18:45,583 [INFO] ================================================================================
+2025-11-10 23:18:45,583 [INFO] 
+📋 Prueba 1/13
+2025-11-10 23:18:45,583 [INFO] 
+🎧 TEST: Rock 70s-80s
+2025-11-10 23:18:45,583 [INFO]    Prompt: 'rock clásico de los 70s y 80s - 15 canciones'
+2025-11-10 23:19:36,245 [INFO]    🎵 Pistas encontradas (4):
+2025-11-10 23:19:36,245 [INFO]       1. A Perfect Circle - A Stranger (2003) [rock alternative rock progressive rock] ⚠️
+2025-11-10 23:19:36,245 [INFO]       2. Abba - One Of Us (2024.0) [rock glam eurovision] ⚠️
+2025-11-10 23:19:36,245 [INFO]       3. Abba - I Have A Dream (2024.0) [rock glam eurovision] ⚠️
+2025-11-10 23:19:36,245 [INFO]       4. None - None (None) [None]
+2025-11-10 23:19:36,245 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:19:36,245 [INFO]       • Década: 0.0%
+2025-11-10 23:19:36,245 [INFO]       • Género: 75.0%
+2025-11-10 23:19:36,246 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento década: 0.0%, Bajo cumplimiento género: 75.0%
+2025-11-10 23:19:36,246 [INFO]    ✅ Éxito: 4 pistas, 50.66s
+2025-11-10 23:19:36,246 [INFO]    📈 Calidad: 7/10
+2025-11-10 23:19:36,246 [WARNING]    ⚠️ Problemas calidad: Artista dominante: Abba (2 pistas), Playlist corta: 4 pistas
+2025-11-10 23:19:39,258 [INFO] 
+📋 Prueba 2/13
+2025-11-10 23:19:39,258 [INFO] 
+🎧 TEST: Pop 2020-2024
+2025-11-10 23:19:39,258 [INFO]    Prompt: 'pop actual 2020-2024 - 10 canciones'
+2025-11-10 23:20:14,972 [INFO]    🎵 Pistas encontradas (9):
+2025-11-10 23:20:14,973 [INFO]       1. Coldplay - Yellow (2000.0) [pop] ⚠️
+2025-11-10 23:20:14,973 [INFO]       2. BTS - ON (2022) [bts kpop k-pop]
+2025-11-10 23:20:14,973 [INFO]       3. Billie Eilish - i love you (2019) [2010s indie pop acoustic] ⚠️
+2025-11-10 23:20:14,973 [INFO]       4. Ariana Grande - One Last Time (2014) [pop sad] ⚠️
+2025-11-10 23:20:14,973 [INFO]       5. Coldplay - Viva La Vida (2008.0) [pop] ⚠️
+2025-11-10 23:20:14,973 [INFO]       6. Coldplay - Sparks (2000.0) [pop] ⚠️
+2025-11-10 23:20:14,973 [INFO]       7. Dua Lipa - Levitating (feat. DaBaby) (2020) [pop]
+2025-11-10 23:20:14,973 [INFO]       8. Dua Lipa - Physical (2020) [pop]
+2025-11-10 23:20:14,974 [INFO]       ... y 1 más
+2025-11-10 23:20:14,974 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:20:14,974 [INFO]       • Década: 44.4%
+2025-11-10 23:20:14,974 [INFO]       • Rango años: 44.4%
+2025-11-10 23:20:14,974 [INFO]       • Género: 100.0%
+2025-11-10 23:20:14,974 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento década: 44.4%, Bajo cumplimiento rango años: 44.4%
+2025-11-10 23:20:14,974 [INFO]    ✅ Éxito: 9 pistas, 35.71s
+2025-11-10 23:20:14,974 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:20:17,986 [INFO] 
+📋 Prueba 3/13
+2025-11-10 23:20:17,986 [INFO] 
+🎧 TEST: Años 90
+2025-11-10 23:20:17,986 [INFO]    Prompt: 'música de los años 90 - 15 canciones'
+2025-11-10 23:20:49,288 [INFO]    🎵 Pistas encontradas (3):
+2025-11-10 23:20:49,288 [INFO]       1. Arctic Monkeys - I Wanna Be Yours (2013) [indie rock alternative indie] ⚠️
+2025-11-10 23:20:49,288 [INFO]       2. blink-182 - I Miss You (2003) [punk rock rock alternative] ⚠️
+2025-11-10 23:20:49,288 [INFO]       3. Arctic Monkeys - I Bet You Look Good On The Dancefloor (2006) [indie rock indie british] ⚠️
+2025-11-10 23:20:49,288 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:20:49,289 [INFO]       • Década: 0.0%
+2025-11-10 23:20:49,289 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento década: 0.0%
+2025-11-10 23:20:49,289 [INFO]    ✅ Éxito: 3 pistas, 31.30s
+2025-11-10 23:20:49,289 [INFO]    📈 Calidad: 8/10
+2025-11-10 23:20:49,289 [WARNING]    ⚠️ Problemas calidad: Playlist corta: 3 pistas
+2025-11-10 23:20:52,302 [INFO] 
+📋 Prueba 4/13
+2025-11-10 23:20:52,302 [INFO] 
+🎧 TEST: Años 2000
+2025-11-10 23:20:52,302 [INFO]    Prompt: 'música de los años 2000 - 12 canciones'
+2025-11-10 23:21:25,643 [INFO]    🎵 Pistas encontradas (1):
+2025-11-10 23:21:25,643 [INFO]       1. None - None (None) [None]
+2025-11-10 23:21:25,643 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:21:25,643 [INFO]       • Década: 0.0%
+2025-11-10 23:21:25,643 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento década: 0.0%
+2025-11-10 23:21:25,643 [INFO]    ✅ Éxito: 1 pistas, 33.34s
+2025-11-10 23:21:25,643 [INFO]    📈 Calidad: 6/10
+2025-11-10 23:21:25,643 [WARNING]    ⚠️ Problemas calidad: Playlist corta: 1 pistas
+2025-11-10 23:21:28,657 [INFO] 
+📋 Prueba 5/13
+2025-11-10 23:21:28,657 [INFO] 
+🎧 TEST: Jazz Instrumental
+2025-11-10 23:21:28,657 [INFO]    Prompt: 'jazz suave instrumental - 8 canciones'
+2025-11-10 23:22:08,607 [INFO]    🎵 Pistas encontradas (8):
+2025-11-10 23:22:08,607 [INFO]       1. Aretha Franklin - I Say a Little Prayer (with The Royal Philharmonic Orchestra) (2017) [soul rnb jazz]
+2025-11-10 23:22:08,607 [INFO]       2. Chicago - 25 or 6 to 4 (2002 Remaster) (1970) [jazz]
+2025-11-10 23:22:08,607 [INFO]       3. Amy Winehouse - In My Bed (2003) [soul jazz female vocalists]
+2025-11-10 23:22:08,607 [INFO]       4. Annie Lennox - I Put A Spell On You (2014) [cover jazz]
+2025-11-10 23:22:08,608 [INFO]       5. Amy Winehouse - A Song For You (2011) [soul amy winehouse jazz]
+2025-11-10 23:22:08,608 [INFO]       6. Django Reinhardt - Minor Swing (1979) [jazz]
+2025-11-10 23:22:08,608 [INFO]       7. Amy Winehouse - I Heard Love Is Blind (2003) [soul jazz female vocalists]
+2025-11-10 23:22:08,608 [INFO]       8. Chicago - Beginnings (1969) [jazz]
+2025-11-10 23:22:08,608 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:22:08,608 [INFO]       • Género: 100.0%
+2025-11-10 23:22:08,609 [INFO]    ✅ Éxito: 8 pistas, 39.95s
+2025-11-10 23:22:08,609 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:22:11,617 [INFO] 
+📋 Prueba 6/13
+2025-11-10 23:22:11,617 [INFO] 
+🎧 TEST: Rock Alternativo
+2025-11-10 23:22:11,617 [INFO]    Prompt: 'rock alternativo - 10 canciones'
+2025-11-10 23:24:10,462 [INFO] 🔐 Iniciando sesión...
+2025-11-10 23:24:12,759 [INFO] ✅ Login exitoso -> nolavarria@agitech.cl
+2025-11-10 23:24:12,760 [INFO] 
+🚀 INICIANDO SUITE DE PRUEBAS - 13 escenarios
+2025-11-10 23:24:12,760 [INFO] ================================================================================
+2025-11-10 23:24:12,760 [INFO] 
+📋 Prueba 1/13
+2025-11-10 23:24:12,760 [INFO] 
+🎧 TEST: Rock 70s-80s
+2025-11-10 23:24:12,760 [INFO]    Prompt: 'rock clásico de los 70s y 80s - 15 canciones'
+2025-11-10 23:24:52,049 [INFO]    🎵 Pistas encontradas (5):
+2025-11-10 23:24:52,049 [INFO]       1. Queen - Under Pressure (2011 Remaster) (2016.0) [rock]
+2025-11-10 23:24:52,049 [INFO]       2. Abba - One Of Us (2024.0) [rock glam eurovision] ⚠️
+2025-11-10 23:24:52,049 [INFO]       3. A Perfect Circle - A Stranger (2003) [rock alternative rock progressive rock] ⚠️
+2025-11-10 23:24:52,049 [INFO]       4. Abba - I Have A Dream (2024.0) [rock glam eurovision] ⚠️
+2025-11-10 23:24:52,049 [INFO]       5. None - None (None) [None]
+2025-11-10 23:24:52,049 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:24:52,049 [INFO]       • Década: 0.0%
+2025-11-10 23:24:52,050 [INFO]       • Género: 80.0%
+2025-11-10 23:24:52,050 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento década: 0.0%
+2025-11-10 23:24:52,050 [INFO]    ✅ Éxito: 5 pistas, 39.29s
+2025-11-10 23:24:52,050 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:24:55,061 [INFO] 
+📋 Prueba 2/13
+2025-11-10 23:24:55,061 [INFO] 
+🎧 TEST: Pop 2020-2024
+2025-11-10 23:24:55,061 [INFO]    Prompt: 'pop actual 2020-2024 - 10 canciones'
+2025-11-10 23:25:31,858 [INFO]    🎵 Pistas encontradas (6):
+2025-11-10 23:25:31,859 [INFO]       1. Alestorm - Actual Human Intro (Live at Summer Breeze 2015) (2008) [pirate metal folk metal power metal]
+2025-11-10 23:25:31,859 [INFO]       2. Annihilator - I Am Warfare (2020) [thrash metal 2020s]
+2025-11-10 23:25:31,859 [INFO]       3. Dua Lipa - Levitating (feat. DaBaby) (2020) [pop]
+2025-11-10 23:25:31,859 [INFO]       4. Dua Lipa - Be the One (Shy Luv Remix) (2015) [pop]
+2025-11-10 23:25:31,859 [INFO]       5. Annihilator - One Wrong Move (2020) [thrash metal 2020s]
+2025-11-10 23:25:31,859 [INFO]       6. None - None (None) [None]
+2025-11-10 23:25:31,859 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:25:31,859 [INFO]       • Década: 50.0%
+2025-11-10 23:25:31,860 [INFO]       • Rango años: 50.0%
+2025-11-10 23:25:31,860 [INFO]       • Género: 33.3%
+2025-11-10 23:25:31,860 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento década: 50.0%, Bajo cumplimiento rango años: 50.0%, Bajo cumplimiento género: 33.3%
+2025-11-10 23:25:31,860 [INFO]    ✅ Éxito: 6 pistas, 36.80s
+2025-11-10 23:25:31,860 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:25:34,865 [INFO] 
+📋 Prueba 3/13
+2025-11-10 23:25:34,865 [INFO] 
+🎧 TEST: Años 90
+2025-11-10 23:25:34,865 [INFO]    Prompt: 'música de los años 90 - 15 canciones'
+2025-11-10 23:26:06,095 [INFO]    🎵 Pistas encontradas (4):
+2025-11-10 23:26:06,095 [INFO]       1. Blur - On Your Own (1997) [britpop alternative]
+2025-11-10 23:26:06,095 [INFO]       2. Annie Lennox - A Whiter Shade of Pale (1995) [pop female vocalists 90s]
+2025-11-10 23:26:06,096 [INFO]       3. Cyndi Lauper - I Drove All Night (1995) [pop]
+2025-11-10 23:26:06,096 [INFO]       4. blink-182 - A New Hope (1997) [punk rock pop punk punk]
+2025-11-10 23:26:06,096 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:26:06,096 [INFO]       • Década: 100.0%
+2025-11-10 23:26:06,096 [INFO]    ✅ Éxito: 4 pistas, 31.23s
+2025-11-10 23:26:06,096 [INFO]    📈 Calidad: 9/10
+2025-11-10 23:26:06,096 [WARNING]    ⚠️ Problemas calidad: Playlist corta: 4 pistas
+2025-11-10 23:26:09,105 [INFO] 
+📋 Prueba 4/13
+2025-11-10 23:26:09,105 [INFO] 
+🎧 TEST: Años 2000
+2025-11-10 23:26:09,105 [INFO]    Prompt: 'música de los años 2000 - 12 canciones'
+2025-11-10 23:26:45,666 [INFO]    🎵 Pistas encontradas (5):
+2025-11-10 23:26:45,666 [INFO]       1. BTS - ON (2022) [bts kpop k-pop] ⚠️
+2025-11-10 23:26:45,667 [INFO]       2. Billie Eilish - i love you (2019) [2010s indie pop acoustic] ⚠️
+2025-11-10 23:26:45,667 [INFO]       3. Ariana Grande - One Last Time (2014) [pop sad] ⚠️
+2025-11-10 23:26:45,667 [INFO]       4. Bonnie Tyler - I Believe in Your Sweet Love (1978) [80s pop female vocalists] ⚠️
+2025-11-10 23:26:45,667 [INFO]       5. Dyango - Lo sé por mí (I Think I Can Believe) (2012) [pop]
+2025-11-10 23:26:45,667 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:26:45,667 [INFO]       • Década: 0.0%
+2025-11-10 23:26:45,667 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento década: 0.0%
+2025-11-10 23:26:45,668 [INFO]    ✅ Éxito: 5 pistas, 36.56s
+2025-11-10 23:26:45,668 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:26:48,683 [INFO] 
+📋 Prueba 5/13
+2025-11-10 23:26:48,683 [INFO] 
+🎧 TEST: Jazz Instrumental
+2025-11-10 23:26:48,683 [INFO]    Prompt: 'jazz suave instrumental - 8 canciones'
+2025-11-10 23:27:18,182 [INFO]    🎵 Pistas encontradas (8):
+2025-11-10 23:27:18,182 [INFO]       1. Aretha Franklin - I Say a Little Prayer (with The Royal Philharmonic Orchestra) (2017) [soul rnb jazz]
+2025-11-10 23:27:18,182 [INFO]       2. Chicago - 25 or 6 to 4 (2002 Remaster) (1970) [jazz]
+2025-11-10 23:27:18,183 [INFO]       3. Amy Winehouse - In My Bed (2003) [soul jazz female vocalists]
+2025-11-10 23:27:18,183 [INFO]       4. Annie Lennox - I Put A Spell On You (2014) [cover jazz]
+2025-11-10 23:27:18,183 [INFO]       5. Amy Winehouse - A Song For You (2011) [soul amy winehouse jazz]
+2025-11-10 23:27:18,183 [INFO]       6. Django Reinhardt - Minor Swing (1979) [jazz]
+2025-11-10 23:27:18,183 [INFO]       7. Amy Winehouse - I Heard Love Is Blind (2003) [soul jazz female vocalists]
+2025-11-10 23:27:18,183 [INFO]       8. Chicago - Beginnings (1969) [jazz]
+2025-11-10 23:27:18,184 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:27:18,184 [INFO]       • Género: 100.0%
+2025-11-10 23:27:18,184 [INFO]    ✅ Éxito: 8 pistas, 29.50s
+2025-11-10 23:27:18,184 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:27:21,185 [INFO] 
+📋 Prueba 6/13
+2025-11-10 23:27:21,185 [INFO] 
+🎧 TEST: Rock Alternativo
+2025-11-10 23:27:21,185 [INFO]    Prompt: 'rock alternativo - 10 canciones'
+2025-11-10 23:27:53,163 [INFO]    🎵 Pistas encontradas (4):
+2025-11-10 23:27:53,163 [INFO]       1. Arctic Monkeys - I Want It All (2013) [indie rock alternative rock rock]
+2025-11-10 23:27:53,164 [INFO]       2. Alice In Chains - I Stay Away (Album Version) (1999) [grunge alternative rock rock]
+2025-11-10 23:27:53,164 [INFO]       3. Audioslave - I Am the Highway (2002) [rock alternative rock hard rock]
+2025-11-10 23:27:53,164 [INFO]       4. A Perfect Circle - A Stranger (2003) [rock alternative rock progressive rock]
+2025-11-10 23:27:53,164 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:27:53,164 [INFO]       • Género: 100.0%
+2025-11-10 23:27:53,164 [INFO]    ✅ Éxito: 4 pistas, 31.98s
+2025-11-10 23:27:53,164 [INFO]    📈 Calidad: 9/10
+2025-11-10 23:27:53,164 [WARNING]    ⚠️ Problemas calidad: Playlist corta: 4 pistas
+2025-11-10 23:27:56,172 [INFO] 
+📋 Prueba 7/13
+2025-11-10 23:27:56,172 [INFO] 
+🎧 TEST: Electrónica
+2025-11-10 23:27:56,172 [INFO]    Prompt: 'música electrónica - 10 canciones'
+2025-11-10 23:28:28,377 [INFO]    🎵 Pistas encontradas (4):
+2025-11-10 23:28:28,377 [INFO]       1. Daft Punk - One More Time (2001) [electronic]
+2025-11-10 23:28:28,378 [INFO]       2. Bring Me The Horizon - Can You Feel My Heart (2013) [metalcore post-hardcore electronic]
+2025-11-10 23:28:28,378 [INFO]       3. Björk - I Miss You (1995) [electronic alternative female vocalists]
+2025-11-10 23:28:28,378 [INFO]       4. None - None (None) [None]
+2025-11-10 23:28:28,378 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:28:28,378 [INFO]       • Género: 0.0%
+2025-11-10 23:28:28,378 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento género: 0.0%
+2025-11-10 23:28:28,379 [INFO]    ✅ Éxito: 4 pistas, 32.20s
+2025-11-10 23:28:28,379 [INFO]    📈 Calidad: 9/10
+2025-11-10 23:28:28,379 [WARNING]    ⚠️ Problemas calidad: Playlist corta: 4 pistas
+2025-11-10 23:28:31,392 [INFO] 
+📋 Prueba 8/13
+2025-11-10 23:28:31,392 [INFO] 
+🎧 TEST: Pop 80s
+2025-11-10 23:28:31,392 [INFO]    Prompt: 'pop de los años 80 - 12 canciones'
+2025-11-10 23:29:09,525 [INFO]    🎵 Pistas encontradas (10):
+2025-11-10 23:29:09,525 [INFO]       1. Cyndi Lauper - Girls Just Want to Have Fun (1983) [pop]
+2025-11-10 23:29:09,526 [INFO]       2. A-Ha - I Dream Myself Alive (2015 Remaster) (1985) [new wave pop 80s]
+2025-11-10 23:29:09,526 [INFO]       3. Alphaville - A Victory of Love (2019 Remaster) (1984) [synthpop new wave 80s]
+2025-11-10 23:29:09,526 [INFO]       4. Cyndi Lauper - Time After Time (1983) [pop]
+2025-11-10 23:29:09,526 [INFO]       5. Chuck Berry - Johnny B. Goode (1982) [pop]
+2025-11-10 23:29:09,526 [INFO]       6. Cyndi Lauper - True Colors (1986) [pop]
+2025-11-10 23:29:09,526 [INFO]       7. Chuck Berry - Roll Over Beethoven (1982) [pop]
+2025-11-10 23:29:09,526 [INFO]       8. Eurythmics - I Saved The World Today (Acoustic Version) (1987.0) [pop]
+2025-11-10 23:29:09,526 [INFO]       ... y 2 más
+2025-11-10 23:29:09,527 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:29:09,527 [INFO]       • Década: 90.0%
+2025-11-10 23:29:09,527 [INFO]       • Género: 90.0%
+2025-11-10 23:29:09,527 [INFO]    ✅ Éxito: 10 pistas, 38.13s
+2025-11-10 23:29:09,527 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:29:12,538 [INFO] 
+📋 Prueba 9/13
+2025-11-10 23:29:12,538 [INFO] 
+🎧 TEST: Rock 2000s
+2025-11-10 23:29:12,538 [INFO]    Prompt: 'rock de los años 2000 - 10 canciones'
+2025-11-10 23:29:56,150 [INFO]    🎵 Pistas encontradas (13):
+2025-11-10 23:29:56,151 [INFO]       1. Coldplay - The Scientist (2002.0) [rock]
+2025-11-10 23:29:56,151 [INFO]       2. blink-182 - I Miss You (2003) [punk rock rock alternative]
+2025-11-10 23:29:56,151 [INFO]       3. Arctic Monkeys - D is for Dangerous (2007) [indie rock indie rock]
+2025-11-10 23:29:56,151 [INFO]       4. Creed - One Last Breath (2001) [rock alternativo]
+2025-11-10 23:29:56,151 [INFO]       5. Arctic Monkeys - I Bet You Look Good On The Dancefloor (2006) [indie rock indie british]
+2025-11-10 23:29:56,151 [INFO]       6. Evanescence - Bring Me To Life (2003) [rock]
+2025-11-10 23:29:56,151 [INFO]       7. Coldplay - Fix You (2005.0) [rock]
+2025-11-10 23:29:56,152 [INFO]       8. Coldplay - Clocks (2002.0) [rock]
+2025-11-10 23:29:56,152 [INFO]       ... y 5 más
+2025-11-10 23:29:56,152 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:29:56,152 [INFO]       • Década: 100.0%
+2025-11-10 23:29:56,152 [INFO]       • Género: 100.0%
+2025-11-10 23:29:56,152 [INFO]    ✅ Éxito: 13 pistas, 43.61s
+2025-11-10 23:29:56,152 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:29:59,155 [INFO] 
+📋 Prueba 10/13
+2025-11-10 23:29:59,155 [INFO] 
+🎧 TEST: Top 10 Rock
+2025-11-10 23:29:59,155 [INFO]    Prompt: 'top 10 canciones de rock de todos los tiempos'
+2025-11-10 23:30:40,755 [INFO]    🎵 Pistas encontradas (3):
+2025-11-10 23:30:40,755 [INFO]       1. Queen - Under Pressure (2011 Remaster) (2016.0) [rock]
+2025-11-10 23:30:40,755 [INFO]       2. David Bowie - Scary Monsters (And Super Creeps) (2017 Remaster) (2018.0) [rock]
+2025-11-10 23:30:40,755 [INFO]       3. None - None (None) [None]
+2025-11-10 23:30:40,755 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:30:40,755 [INFO]       • Género: 66.7%
+2025-11-10 23:30:40,755 [WARNING]    ⚠️ PROBLEMAS FILTROS: Bajo cumplimiento género: 66.7%
+2025-11-10 23:30:40,756 [INFO]    ✅ Éxito: 3 pistas, 41.60s
+2025-11-10 23:30:40,756 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:30:43,760 [INFO] 
+📋 Prueba 11/13
+2025-11-10 23:30:43,760 [INFO] 
+🎧 TEST: 5 Mejores Queen
+2025-11-10 23:30:43,760 [INFO]    Prompt: '5 mejores canciones de Queen'
+2025-11-10 23:31:21,511 [INFO]    🎵 Pistas encontradas (5):
+2025-11-10 23:31:21,512 [INFO]       1. Arctic Monkeys - I Wanna Be Yours (2013) [indie rock alternative indie]
+2025-11-10 23:31:21,512 [INFO]       2. Arctic Monkeys - R U Mine? (2013) [indie rock british indie]
+2025-11-10 23:31:21,512 [INFO]       3. blink-182 - I Miss You (2003) [punk rock rock alternative]
+2025-11-10 23:31:21,512 [INFO]       4. Arctic Monkeys - I Bet You Look Good On The Dancefloor (2006) [indie rock indie british]
+2025-11-10 23:31:21,512 [INFO]       5. None - None (None) [None]
+2025-11-10 23:31:21,512 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:31:21,512 [INFO]    ✅ Éxito: 5 pistas, 37.75s
+2025-11-10 23:31:21,512 [INFO]    📈 Calidad: 8/10
+2025-11-10 23:31:21,512 [WARNING]    ⚠️ Problemas calidad: Artista dominante: Arctic Monkeys (3 pistas)
+2025-11-10 23:31:24,518 [INFO] 
+📋 Prueba 12/13
+2025-11-10 23:31:24,518 [INFO] 
+🎧 TEST: Michael Jackson
+2025-11-10 23:31:24,518 [INFO]    Prompt: 'lo mejor de Michael Jackson - 15 canciones'
+2025-11-10 23:32:01,402 [INFO]    🎵 Pistas encontradas (3):
+2025-11-10 23:32:01,402 [INFO]       1. Alphaville - A Victory of Love (2019 Remaster) (1984) [synthpop new wave 80s]
+2025-11-10 23:32:01,402 [INFO]       2. Eurythmics - I Saved The World Today (Acoustic Version) (1987.0) [pop]
+2025-11-10 23:32:01,402 [INFO]       3. None - None (None) [None]
+2025-11-10 23:32:01,402 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:32:01,402 [INFO]    ✅ Éxito: 3 pistas, 36.88s
+2025-11-10 23:32:01,402 [INFO]    📈 Calidad: 8/10
+2025-11-10 23:32:01,403 [WARNING]    ⚠️ Problemas calidad: Playlist corta: 3 pistas
+2025-11-10 23:32:04,412 [INFO] 
+📋 Prueba 13/13
+2025-11-10 23:32:04,412 [INFO] 
+🎧 TEST: The Beatles
+2025-11-10 23:32:04,412 [INFO]    Prompt: 'canciones de The Beatles - 12 canciones'
+2025-11-10 23:32:40,994 [INFO]    🎵 Pistas encontradas (8):
+2025-11-10 23:32:40,994 [INFO]       1. Arctic Monkeys - I Wanna Be Yours (2013) [indie rock alternative indie]
+2025-11-10 23:32:40,994 [INFO]       2. BTS - ON (2022) [bts kpop k-pop]
+2025-11-10 23:32:40,994 [INFO]       3. Coldplay - The Scientist (2002.0) [rock]
+2025-11-10 23:32:40,994 [INFO]       4. Bring Me The Horizon - i apologise if you feel something (2019) [alternative rock rock electronic]
+2025-11-10 23:32:40,994 [INFO]       5. Ariana Grande - the boy is mine (2024) [motomano pop rnb]
+2025-11-10 23:32:40,994 [INFO]       6. Arctic Monkeys - I Bet You Look Good On The Dancefloor (2006) [indie rock indie british]
+2025-11-10 23:32:40,995 [INFO]       7. Deftones - Be Quiet and Drive (Far Away) (2016.0) [rock]
+2025-11-10 23:32:40,995 [INFO]       8. None - None (None) [None]
+2025-11-10 23:32:40,995 [INFO]    📊 CUMPLIMIENTO DE FILTROS:
+2025-11-10 23:32:40,995 [INFO]    ✅ Éxito: 8 pistas, 36.58s
+2025-11-10 23:32:40,995 [INFO]    📈 Calidad: 10/10
+2025-11-10 23:32:40,999 [INFO] 
+================================================================================
+2025-11-10 23:32:40,999 [INFO] 📊 REPORTE EJECUTIVO - ANÁLISIS DE FILTROS
+2025-11-10 23:32:40,999 [INFO] ================================================================================
+2025-11-10 23:32:40,999 [INFO] 📈 ESTADÍSTICAS GENERALES:
+2025-11-10 23:32:40,999 [INFO]    • Tests totales: 13
+2025-11-10 23:32:40,999 [INFO]    • Tests exitosos: 13
+2025-11-10 23:32:40,999 [INFO]    • Tasa de éxito: 100.0%
+2025-11-10 23:32:40,999 [INFO]    • Calidad promedio: 9.46/10
+2025-11-10 23:32:41,000 [INFO]    • Pistas por playlist: 6
+2025-11-10 23:32:41,000 [INFO] 
+🎯 DESEMPEÑO DE FILTROS:
+2025-11-10 23:32:41,000 [INFO]    • Cumplimiento década: 56.7%
+2025-11-10 23:32:41,000 [INFO]    • Cumplimiento rango años: 50.0%
+2025-11-10 23:32:41,000 [INFO]    • Cumplimiento género: 71.3%
+2025-11-10 23:32:41,000 [INFO] 
+⚠️  TESTS CON PROBLEMAS DE FILTROS:
+2025-11-10 23:32:41,000 [INFO]    • Rock 70s-80s: década: 0.0%
+2025-11-10 23:32:41,000 [INFO]    • Pop 2020-2024: década: 50.0%, años: 50.0%
+2025-11-10 23:32:41,000 [INFO]    • Años 2000: década: 0.0%
+2025-11-10 23:32:41,000 [INFO] 
+💡 RECOMENDACIONES:
+2025-11-10 23:32:41,000 [INFO]    🔴 CRÍTICO: Problemas graves con filtros por década
+2025-11-10 23:32:41,001 [INFO]       - Rock 70s-80s: 0.0% cumplimiento
+2025-11-10 23:32:41,001 [INFO]       - Pop 2020-2024: 50.0% cumplimiento
+2025-11-10 23:32:41,001 [INFO]       - Años 2000: 0.0% cumplimiento
+2025-11-10 23:32:41,001 [INFO]    🔴 CRÍTICO: Problemas graves con filtros por rango de años
+2025-11-10 23:32:41,001 [INFO]       - Pop 2020-2024: 50.0% cumplimiento
+2025-11-10 23:32:41,001 [INFO]    🔸 MEJORAR: Problemas con filtros por género
+2025-11-10 23:32:41,001 [INFO]       - Pop 2020-2024: 33.3% cumplimiento
+2025-11-10 23:32:41,001 [INFO]       - Electrónica: 0.0% cumplimiento
+2025-11-10 23:32:41,002 [INFO] 
+📄 ARCHIVOS GENERADOS:
+2025-11-10 23:32:41,002 [INFO]    • Reporte completo: test_automation_report_v3.json
+2025-11-10 23:32:41,002 [INFO]    • Análisis filtros: filter_analysis_report.json
+2025-11-10 23:32:41,002 [INFO]    • Logs detallados: test_detailed_results_v3.log
+2025-11-10 23:32:41,002 [INFO] ================================================================================

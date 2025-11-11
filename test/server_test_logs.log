@@ -1,0 +1,4 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\nolav\\Documents\\python nico\\Neoplaylist\\backend 2\\test']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [371640] using WatchFiles
+ERROR:    Error loading ASGI app. Could not import module "main".

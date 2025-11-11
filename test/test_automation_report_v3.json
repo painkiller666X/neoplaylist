@@ -1,0 +1,1240 @@
+{
+  "timestamp": "2025-11-11T02:32:40.996374",
+  "summary": {
+    "total_tests": 13,
+    "successful_tests": 13,
+    "failed_tests": 0,
+    "success_rate": 100.0
+  },
+  "metrics": {
+    "avg_quality_score": 9.46,
+    "avg_response_time": 36.32,
+    "avg_tracks_per_playlist": 6,
+    "min_quality": 8,
+    "max_quality": 10
+  },
+  "filter_performance": {
+    "avg_decade_compliance": 0.567,
+    "avg_year_range_compliance": 0.5,
+    "avg_genre_compliance": 0.713,
+    "total_filter_tests": 13
+  },
+  "detailed_results": [
+    {
+      "test_name": "Rock 70s-80s",
+      "prompt": "rock clásico de los 70s y 80s - 15 canciones",
+      "success": true,
+      "response_time": 39.28790521621704,
+      "tracks_count": 5,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "Abba": 2,
+          "Queen": 1,
+          "A Perfect Circle": 1,
+          "Desconocido": 1
+        },
+        "unique_artists": 4,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 0.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 0.8,
+        "issues": [
+          "Bajo cumplimiento década: 0.0%"
+        ],
+        "year_violations": [],
+        "decade_violations": [
+          "Queen - Under Pressure (2011 Remaster) (2016.0)",
+          "Abba - One Of Us (2024.0)",
+          "A Perfect Circle - A Stranger (2003)",
+          "Abba - I Have A Dream (2024.0)"
+        ],
+        "genre_violations": [
+          "None - None (género: none)"
+        ],
+        "detected_filters": {
+          "decades": [
+            1970,
+            1971,
+            1972,
+            1973,
+            1974,
+            1975,
+            1976,
+            1977,
+            1978,
+            1979,
+            1980,
+            1981,
+            1982,
+            1983,
+            1984,
+            1985,
+            1986,
+            1987,
+            1988,
+            1989
+          ],
+          "year_range": null,
+          "genres": [
+            "rock"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Queen - Under Pressure (2011 Remaster)",
+        "Abba - One Of Us",
+        "A Perfect Circle - A Stranger"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Queen",
+          "titulo": "Under Pressure (2011 Remaster)",
+          "año": 2016.0,
+          "genero": "rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Abba",
+          "titulo": "One Of Us",
+          "año": 2024.0,
+          "genero": "rock glam eurovision",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "A Perfect Circle",
+          "titulo": "A Stranger",
+          "año": 2003,
+          "genero": "rock alternative rock progressive rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Abba",
+          "titulo": "I Have A Dream",
+          "año": 2024.0,
+          "genero": "rock glam eurovision",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    },
+    {
+      "test_name": "Pop 2020-2024",
+      "prompt": "pop actual 2020-2024 - 10 canciones",
+      "success": true,
+      "response_time": 36.79721927642822,
+      "tracks_count": 6,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "Annihilator": 2,
+          "Dua Lipa": 2,
+          "Alestorm": 1,
+          "Desconocido": 1
+        },
+        "unique_artists": 4,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 0.5,
+        "year_range_compliance": 0.5,
+        "genre_compliance": 0.333,
+        "issues": [
+          "Bajo cumplimiento década: 50.0%",
+          "Bajo cumplimiento rango años: 50.0%",
+          "Bajo cumplimiento género: 33.3%"
+        ],
+        "year_violations": [
+          "Alestorm - Actual Human Intro (Live at Summer Breeze 2015) (2008)",
+          "Dua Lipa - Be the One (Shy Luv Remix) (2015)"
+        ],
+        "decade_violations": [
+          "Alestorm - Actual Human Intro (Live at Summer Breeze 2015) (2008)",
+          "Dua Lipa - Be the One (Shy Luv Remix) (2015)"
+        ],
+        "genre_violations": [
+          "Alestorm - Actual Human Intro (Live at Summer Breeze 2015) (género: pirate metal folk metal power metal)",
+          "Annihilator - I Am Warfare (género: thrash metal 2020s)",
+          "Annihilator - One Wrong Move (género: thrash metal 2020s)",
+          "None - None (género: none)"
+        ],
+        "detected_filters": {
+          "decades": [
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "year_range": [
+            2020,
+            2024
+          ],
+          "genres": [
+            "pop"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Alestorm - Actual Human Intro (Live at Summer Breeze 2015)",
+        "Annihilator - I Am Warfare",
+        "Dua Lipa - Levitating (feat. DaBaby)"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Alestorm",
+          "titulo": "Actual Human Intro (Live at Summer Breeze 2015)",
+          "año": 2008,
+          "genero": "pirate metal folk metal power metal",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Annihilator",
+          "titulo": "I Am Warfare",
+          "año": 2020,
+          "genero": "thrash metal 2020s",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Dua Lipa",
+          "titulo": "Levitating (feat. DaBaby)",
+          "año": 2020,
+          "genero": "pop",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Dua Lipa",
+          "titulo": "Be the One (Shy Luv Remix)",
+          "año": 2015,
+          "genero": "pop",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Annihilator",
+          "titulo": "One Wrong Move",
+          "año": 2020,
+          "genero": "thrash metal 2020s",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    },
+    {
+      "test_name": "Años 90",
+      "prompt": "música de los años 90 - 15 canciones",
+      "success": true,
+      "response_time": 31.22984743118286,
+      "tracks_count": 4,
+      "analysis": {
+        "quality_score": 9,
+        "issues": [
+          "Playlist corta: 4 pistas"
+        ],
+        "artist_distribution": {
+          "Blur": 1,
+          "Annie Lennox": 1,
+          "Cyndi Lauper": 1,
+          "blink-182": 1
+        },
+        "unique_artists": 4,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [
+            1990,
+            1991,
+            1992,
+            1993,
+            1994,
+            1995,
+            1996,
+            1997,
+            1998,
+            1999
+          ],
+          "year_range": null,
+          "genres": []
+        }
+      },
+      "sample_tracks": [
+        "Blur - On Your Own",
+        "Annie Lennox - A Whiter Shade of Pale",
+        "Cyndi Lauper - I Drove All Night"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Blur",
+          "titulo": "On Your Own",
+          "año": 1997,
+          "genero": "britpop alternative",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Annie Lennox",
+          "titulo": "A Whiter Shade of Pale",
+          "año": 1995,
+          "genero": "pop female vocalists 90s",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Cyndi Lauper",
+          "titulo": "I Drove All Night",
+          "año": 1995,
+          "genero": "pop",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "blink-182",
+          "titulo": "A New Hope",
+          "año": 1997,
+          "genero": "punk rock pop punk punk",
+          "calidad": "Hi-Res Lossless"
+        }
+      ]
+    },
+    {
+      "test_name": "Años 2000",
+      "prompt": "música de los años 2000 - 12 canciones",
+      "success": true,
+      "response_time": 36.561405181884766,
+      "tracks_count": 5,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "BTS": 1,
+          "Billie Eilish": 1,
+          "Ariana Grande": 1,
+          "Bonnie Tyler": 1,
+          "Dyango": 1
+        },
+        "unique_artists": 5,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 0.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [
+          "Bajo cumplimiento década: 0.0%"
+        ],
+        "year_violations": [],
+        "decade_violations": [
+          "BTS - ON (2022)",
+          "Billie Eilish - i love you (2019)",
+          "Ariana Grande - One Last Time (2014)",
+          "Bonnie Tyler - I Believe in Your Sweet Love (1978)",
+          "Dyango - Lo sé por mí (I Think I Can Believe) (2012)"
+        ],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "year_range": null,
+          "genres": []
+        }
+      },
+      "sample_tracks": [
+        "BTS - ON",
+        "Billie Eilish - i love you",
+        "Ariana Grande - One Last Time"
+      ],
+      "all_tracks": [
+        {
+          "artista": "BTS",
+          "titulo": "ON",
+          "año": 2022,
+          "genero": "bts kpop k-pop",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Billie Eilish",
+          "titulo": "i love you",
+          "año": 2019,
+          "genero": "2010s indie pop acoustic",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Ariana Grande",
+          "titulo": "One Last Time",
+          "año": 2014,
+          "genero": "pop sad",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Bonnie Tyler",
+          "titulo": "I Believe in Your Sweet Love",
+          "año": 1978,
+          "genero": "80s pop female vocalists",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Dyango",
+          "titulo": "Lo sé por mí (I Think I Can Believe)",
+          "año": 2012,
+          "genero": "pop",
+          "calidad": "CD Lossless"
+        }
+      ]
+    },
+    {
+      "test_name": "Jazz Instrumental",
+      "prompt": "jazz suave instrumental - 8 canciones",
+      "success": true,
+      "response_time": 29.49877119064331,
+      "tracks_count": 8,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "Amy Winehouse": 3,
+          "Chicago": 2,
+          "Aretha Franklin": 1,
+          "Annie Lennox": 1,
+          "Django Reinhardt": 1
+        },
+        "unique_artists": 5,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [],
+          "year_range": null,
+          "genres": [
+            "jazz"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Aretha Franklin - I Say a Little Prayer (with The Royal Philharmonic Orchestra)",
+        "Chicago - 25 or 6 to 4 (2002 Remaster)",
+        "Amy Winehouse - In My Bed"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Aretha Franklin",
+          "titulo": "I Say a Little Prayer (with The Royal Philharmonic Orchestra)",
+          "año": 2017,
+          "genero": "soul rnb jazz",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Chicago",
+          "titulo": "25 or 6 to 4 (2002 Remaster)",
+          "año": 1970,
+          "genero": "jazz",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Amy Winehouse",
+          "titulo": "In My Bed",
+          "año": 2003,
+          "genero": "soul jazz female vocalists",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Annie Lennox",
+          "titulo": "I Put A Spell On You",
+          "año": 2014,
+          "genero": "cover jazz",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Amy Winehouse",
+          "titulo": "A Song For You",
+          "año": 2011,
+          "genero": "soul amy winehouse jazz",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Django Reinhardt",
+          "titulo": "Minor Swing",
+          "año": 1979,
+          "genero": "jazz",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Amy Winehouse",
+          "titulo": "I Heard Love Is Blind",
+          "año": 2003,
+          "genero": "soul jazz female vocalists",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Chicago",
+          "titulo": "Beginnings",
+          "año": 1969,
+          "genero": "jazz",
+          "calidad": "Hi-Res Lossless"
+        }
+      ]
+    },
+    {
+      "test_name": "Rock Alternativo",
+      "prompt": "rock alternativo - 10 canciones",
+      "success": true,
+      "response_time": 31.97834086418152,
+      "tracks_count": 4,
+      "analysis": {
+        "quality_score": 9,
+        "issues": [
+          "Playlist corta: 4 pistas"
+        ],
+        "artist_distribution": {
+          "Arctic Monkeys": 1,
+          "Alice In Chains": 1,
+          "Audioslave": 1,
+          "A Perfect Circle": 1
+        },
+        "unique_artists": 4,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [],
+          "year_range": null,
+          "genres": [
+            "rock"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Arctic Monkeys - I Want It All",
+        "Alice In Chains - I Stay Away (Album Version)",
+        "Audioslave - I Am the Highway"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "I Want It All",
+          "año": 2013,
+          "genero": "indie rock alternative rock rock",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Alice In Chains",
+          "titulo": "I Stay Away (Album Version)",
+          "año": 1999,
+          "genero": "grunge alternative rock rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Audioslave",
+          "titulo": "I Am the Highway",
+          "año": 2002,
+          "genero": "rock alternative rock hard rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "A Perfect Circle",
+          "titulo": "A Stranger",
+          "año": 2003,
+          "genero": "rock alternative rock progressive rock",
+          "calidad": "CD Lossless"
+        }
+      ]
+    },
+    {
+      "test_name": "Electrónica",
+      "prompt": "música electrónica - 10 canciones",
+      "success": true,
+      "response_time": 32.204254388809204,
+      "tracks_count": 4,
+      "analysis": {
+        "quality_score": 9,
+        "issues": [
+          "Playlist corta: 4 pistas"
+        ],
+        "artist_distribution": {
+          "Daft Punk": 1,
+          "Bring Me The Horizon": 1,
+          "Björk": 1,
+          "Desconocido": 1
+        },
+        "unique_artists": 4,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 0.0,
+        "issues": [
+          "Bajo cumplimiento género: 0.0%"
+        ],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [
+          "Daft Punk - One More Time (género: electronic)",
+          "Bring Me The Horizon - Can You Feel My Heart (género: metalcore post-hardcore electronic)",
+          "Björk - I Miss You (género: electronic alternative female vocalists)",
+          "None - None (género: none)"
+        ],
+        "detected_filters": {
+          "decades": [],
+          "year_range": null,
+          "genres": [
+            "electrónica"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Daft Punk - One More Time",
+        "Bring Me The Horizon - Can You Feel My Heart",
+        "Björk - I Miss You"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Daft Punk",
+          "titulo": "One More Time",
+          "año": 2001,
+          "genero": "electronic",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Bring Me The Horizon",
+          "titulo": "Can You Feel My Heart",
+          "año": 2013,
+          "genero": "metalcore post-hardcore electronic",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Björk",
+          "titulo": "I Miss You",
+          "año": 1995,
+          "genero": "electronic alternative female vocalists",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    },
+    {
+      "test_name": "Pop 80s",
+      "prompt": "pop de los años 80 - 12 canciones",
+      "success": true,
+      "response_time": 38.133522033691406,
+      "tracks_count": 10,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "Cyndi Lauper": 3,
+          "Chuck Berry": 2,
+          "A-Ha": 1,
+          "Alphaville": 1,
+          "Eurythmics": 1
+        },
+        "unique_artists": 7,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 0.9,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 0.9,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [
+          "None - None (género: none)"
+        ],
+        "detected_filters": {
+          "decades": [
+            1980,
+            1981,
+            1982,
+            1983,
+            1984,
+            1985,
+            1986,
+            1987,
+            1988,
+            1989
+          ],
+          "year_range": null,
+          "genres": [
+            "pop"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Cyndi Lauper - Girls Just Want to Have Fun",
+        "A-Ha - I Dream Myself Alive (2015 Remaster)",
+        "Alphaville - A Victory of Love (2019 Remaster)"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Cyndi Lauper",
+          "titulo": "Girls Just Want to Have Fun",
+          "año": 1983,
+          "genero": "pop",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "A-Ha",
+          "titulo": "I Dream Myself Alive (2015 Remaster)",
+          "año": 1985,
+          "genero": "new wave pop 80s",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Alphaville",
+          "titulo": "A Victory of Love (2019 Remaster)",
+          "año": 1984,
+          "genero": "synthpop new wave 80s",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Cyndi Lauper",
+          "titulo": "Time After Time",
+          "año": 1983,
+          "genero": "pop",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Chuck Berry",
+          "titulo": "Johnny B. Goode",
+          "año": 1982,
+          "genero": "pop",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Cyndi Lauper",
+          "titulo": "True Colors",
+          "año": 1986,
+          "genero": "pop",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Chuck Berry",
+          "titulo": "Roll Over Beethoven",
+          "año": 1982,
+          "genero": "pop",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Eurythmics",
+          "titulo": "I Saved The World Today (Acoustic Version)",
+          "año": 1987.0,
+          "genero": "pop",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Cliff Richard",
+          "titulo": "Mistletoe and Wine",
+          "año": 1988,
+          "genero": "pop",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    },
+    {
+      "test_name": "Rock 2000s",
+      "prompt": "rock de los años 2000 - 10 canciones",
+      "success": true,
+      "response_time": 43.612152338027954,
+      "tracks_count": 13,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "Coldplay": 3,
+          "Arctic Monkeys": 3,
+          "Evanescence": 3,
+          "blink-182": 1,
+          "Creed": 1
+        },
+        "unique_artists": 7,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009
+          ],
+          "year_range": null,
+          "genres": [
+            "rock"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Coldplay - The Scientist",
+        "blink-182 - I Miss You",
+        "Arctic Monkeys - D is for Dangerous"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Coldplay",
+          "titulo": "The Scientist",
+          "año": 2002.0,
+          "genero": "rock",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "blink-182",
+          "titulo": "I Miss You",
+          "año": 2003,
+          "genero": "punk rock rock alternative",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "D is for Dangerous",
+          "año": 2007,
+          "genero": "indie rock indie rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Creed",
+          "titulo": "One Last Breath",
+          "año": 2001,
+          "genero": "rock alternativo",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "I Bet You Look Good On The Dancefloor",
+          "año": 2006,
+          "genero": "indie rock indie british",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Evanescence",
+          "titulo": "Bring Me To Life",
+          "año": 2003,
+          "genero": "rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Coldplay",
+          "titulo": "Fix You",
+          "año": 2005.0,
+          "genero": "rock",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Coldplay",
+          "titulo": "Clocks",
+          "año": 2002.0,
+          "genero": "rock",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Evanescence",
+          "titulo": "My Immortal (Band Version)",
+          "año": 2003,
+          "genero": "rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "A Certain Romance",
+          "año": 2006,
+          "genero": "indie rock indie british",
+          "calidad": "CD Lossless"
+        }
+      ]
+    },
+    {
+      "test_name": "Top 10 Rock",
+      "prompt": "top 10 canciones de rock de todos los tiempos",
+      "success": true,
+      "response_time": 41.59950351715088,
+      "tracks_count": 3,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "Queen": 1,
+          "David Bowie": 1,
+          "Desconocido": 1
+        },
+        "unique_artists": 3,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 0.667,
+        "issues": [
+          "Bajo cumplimiento género: 66.7%"
+        ],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [
+          "None - None (género: none)"
+        ],
+        "detected_filters": {
+          "decades": [],
+          "year_range": null,
+          "genres": [
+            "rock"
+          ]
+        }
+      },
+      "sample_tracks": [
+        "Queen - Under Pressure (2011 Remaster)",
+        "David Bowie - Scary Monsters (And Super Creeps) (2017 Remaster)",
+        "None - None"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Queen",
+          "titulo": "Under Pressure (2011 Remaster)",
+          "año": 2016.0,
+          "genero": "rock",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "David Bowie",
+          "titulo": "Scary Monsters (And Super Creeps) (2017 Remaster)",
+          "año": 2018.0,
+          "genero": "rock",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    },
+    {
+      "test_name": "5 Mejores Queen",
+      "prompt": "5 mejores canciones de Queen",
+      "success": true,
+      "response_time": 37.750343799591064,
+      "tracks_count": 5,
+      "analysis": {
+        "quality_score": 8,
+        "issues": [
+          "Artista dominante: Arctic Monkeys (3 pistas)"
+        ],
+        "artist_distribution": {
+          "Arctic Monkeys": 3,
+          "blink-182": 1,
+          "Desconocido": 1
+        },
+        "unique_artists": 3,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [],
+          "year_range": null,
+          "genres": []
+        }
+      },
+      "sample_tracks": [
+        "Arctic Monkeys - I Wanna Be Yours",
+        "Arctic Monkeys - R U Mine?",
+        "blink-182 - I Miss You"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "I Wanna Be Yours",
+          "año": 2013,
+          "genero": "indie rock alternative indie",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "R U Mine?",
+          "año": 2013,
+          "genero": "indie rock british indie",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "blink-182",
+          "titulo": "I Miss You",
+          "año": 2003,
+          "genero": "punk rock rock alternative",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "I Bet You Look Good On The Dancefloor",
+          "año": 2006,
+          "genero": "indie rock indie british",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    },
+    {
+      "test_name": "Michael Jackson",
+      "prompt": "lo mejor de Michael Jackson - 15 canciones",
+      "success": true,
+      "response_time": 36.884589433670044,
+      "tracks_count": 3,
+      "analysis": {
+        "quality_score": 8,
+        "issues": [
+          "Playlist corta: 3 pistas"
+        ],
+        "artist_distribution": {
+          "Alphaville": 1,
+          "Eurythmics": 1,
+          "Desconocido": 1
+        },
+        "unique_artists": 3,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [],
+          "year_range": null,
+          "genres": []
+        }
+      },
+      "sample_tracks": [
+        "Alphaville - A Victory of Love (2019 Remaster)",
+        "Eurythmics - I Saved The World Today (Acoustic Version)",
+        "None - None"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Alphaville",
+          "titulo": "A Victory of Love (2019 Remaster)",
+          "año": 1984,
+          "genero": "synthpop new wave 80s",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Eurythmics",
+          "titulo": "I Saved The World Today (Acoustic Version)",
+          "año": 1987.0,
+          "genero": "pop",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    },
+    {
+      "test_name": "The Beatles",
+      "prompt": "canciones de The Beatles - 12 canciones",
+      "success": true,
+      "response_time": 36.57966947555542,
+      "tracks_count": 8,
+      "analysis": {
+        "quality_score": 10,
+        "issues": [],
+        "artist_distribution": {
+          "Arctic Monkeys": 2,
+          "BTS": 1,
+          "Coldplay": 1,
+          "Bring Me The Horizon": 1,
+          "Ariana Grande": 1
+        },
+        "unique_artists": 7,
+        "relevance_ratio": 0,
+        "duplicate_count": 0
+      },
+      "filter_analysis": {
+        "decade_compliance": 1.0,
+        "year_range_compliance": 1.0,
+        "genre_compliance": 1.0,
+        "issues": [],
+        "year_violations": [],
+        "decade_violations": [],
+        "genre_violations": [],
+        "detected_filters": {
+          "decades": [],
+          "year_range": null,
+          "genres": []
+        }
+      },
+      "sample_tracks": [
+        "Arctic Monkeys - I Wanna Be Yours",
+        "BTS - ON",
+        "Coldplay - The Scientist"
+      ],
+      "all_tracks": [
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "I Wanna Be Yours",
+          "año": 2013,
+          "genero": "indie rock alternative indie",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "BTS",
+          "titulo": "ON",
+          "año": 2022,
+          "genero": "bts kpop k-pop",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Coldplay",
+          "titulo": "The Scientist",
+          "año": 2002.0,
+          "genero": "rock",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Bring Me The Horizon",
+          "titulo": "i apologise if you feel something",
+          "año": 2019,
+          "genero": "alternative rock rock electronic",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Ariana Grande",
+          "titulo": "the boy is mine",
+          "año": 2024,
+          "genero": "motomano pop rnb",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": "Arctic Monkeys",
+          "titulo": "I Bet You Look Good On The Dancefloor",
+          "año": 2006,
+          "genero": "indie rock indie british",
+          "calidad": "CD Lossless"
+        },
+        {
+          "artista": "Deftones",
+          "titulo": "Be Quiet and Drive (Far Away)",
+          "año": 2016.0,
+          "genero": "rock",
+          "calidad": "Hi-Res Lossless"
+        },
+        {
+          "artista": null,
+          "titulo": null,
+          "año": null,
+          "genero": null,
+          "calidad": null
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    "🔴 CRÍTICO: Problemas graves con filtros por década",
+    "   - Rock 70s-80s: 0.0% cumplimiento",
+    "   - Pop 2020-2024: 50.0% cumplimiento",
+    "   - Años 2000: 0.0% cumplimiento",
+    "🔴 CRÍTICO: Problemas graves con filtros por rango de años",
+    "   - Pop 2020-2024: 50.0% cumplimiento",
+    "🔸 MEJORAR: Problemas con filtros por género",
+    "   - Pop 2020-2024: 33.3% cumplimiento",
+    "   - Electrónica: 0.0% cumplimiento"
+  ]
+}

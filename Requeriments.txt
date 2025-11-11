@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pymongo
+bcrypt
+python-dotenv
+PyJWT
+requests
